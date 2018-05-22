@@ -26,6 +26,7 @@ public class EditerCollaborateurController extends HttpServlet {
 		String nomParam = req.getParameter("nom");
 		String prenomParam = req.getParameter("prenom");
 		String reponseErreur = "Les paramètres suivants sont incorrects : ";
+		resp.setCharacterEncoding("UTF-8");
 		if (matriculeParam == null || titreParam == null || nomParam == null || prenomParam == null) {
 			if (matriculeParam == null)
 				reponseErreur += "\nmatricule";
