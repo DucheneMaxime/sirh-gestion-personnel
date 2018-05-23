@@ -3,3 +3,4 @@
 .classpath
 .project
 org.eclipse.*
+/src/main/webapp/bootstrap-4.1.1-dist/*
